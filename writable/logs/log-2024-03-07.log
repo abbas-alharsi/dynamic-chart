@@ -1,0 +1,28 @@
+CRITICAL - 2024-03-07 09:46:06 --> Too few arguments to function App\Models\MyModel::getData(), 0 passed in C:\xampp\htdocs\myproject\app\Controllers\MyController.php on line 11 and exactly 1 expected
+in APPPATH\Models\MyModel.php on line 13.
+ 1 APPPATH\Controllers\MyController.php(11): App\Models\MyModel->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->myView()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 09:46:26 --> Too few arguments to function App\Models\MyModel::getData(), 0 passed in C:\xampp\htdocs\myproject\app\Controllers\MyController.php on line 11 and exactly 1 expected
+in APPPATH\Models\MyModel.php on line 13.
+ 1 APPPATH\Controllers\MyController.php(11): App\Models\MyModel->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->myView()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 09:46:55 --> Too few arguments to function App\Models\MyModel::getData(), 0 passed in C:\xampp\htdocs\myproject\app\Controllers\MyController.php on line 11 and exactly 1 expected
+in APPPATH\Models\MyModel.php on line 13.
+ 1 APPPATH\Controllers\MyController.php(11): App\Models\MyModel->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->myView()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 09:47:41 --> Too few arguments to function App\Models\MyModel::getData(), 0 passed in C:\xampp\htdocs\myproject\app\Controllers\MyController.php on line 12 and exactly 1 expected
+in APPPATH\Models\MyModel.php on line 13.
+ 1 APPPATH\Controllers\MyController.php(12): App\Models\MyModel->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MyController->myView()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
