@@ -1,0 +1,22 @@
+CRITICAL - 2024-03-08 08:54:15 --> Class 'App\Models\Modal' not found
+in APPPATH\Models\MyModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\myproject\\app\\Models\\MyModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyModel')
+ 5 APPPATH\Controllers\MyController.php(8): spl_autoload_call('App\\Models\\MyModel')
+ 6 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-08 08:54:16 --> Class 'App\Models\Modal' not found
+in APPPATH\Models\MyModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\myproject\\app\\Models\\MyModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\MyModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\MyModel')
+ 5 APPPATH\Controllers\MyController.php(8): spl_autoload_call('App\\Models\\MyModel')
+ 6 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MyController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
