@@ -24,7 +24,7 @@ class MyController extends BaseController {
         } else {
             $res = array(
                 'status'=>'success',
-                'msg'=>'Terdapata data penjualan pada tahun yang dimaksud',
+                'msg'=>'Terdapat data penjualan pada tahun yang dimaksud',
                 'data'=>$data
             );
         }
