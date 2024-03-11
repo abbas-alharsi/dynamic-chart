@@ -91,18 +91,17 @@
         const changeSalesChart = () => {
             let year = $('#yearOptions').val()
             let chartType = $('#chartOptions').val()
+
             $.ajax(
                 {
                     url: `${baseUrl}update-chart/${year}`,
                     method: 'get',
                     success: data => {
                         let res = JSON.parse(data)
-                        try{
+                        if(res.status == 'error') {
+                            alert(res.msg)
+                        } else {
                             salesChart(res.data, chartType)
-                        } finally {
-                            if(res.status == 'error') {
-                                alert(res.msg)
-                            }
                         }
                     }
                 }

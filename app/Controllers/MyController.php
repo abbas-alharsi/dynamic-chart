@@ -19,12 +19,12 @@ class MyController extends BaseController {
         if(intval(sizeof($data)) < 1) {
             $res = array(
                 'status'=>'error',
-                'msg'=>'Tidak ditemukan data penjualan pada tahun yang dimaksud'
+                'msg'=>''
             );
         } else {
             $res = array(
                 'status'=>'success',
-                'msg'=>'Terdapat data penjualan pada tahun yang dimaksud',
+                'msg'=>'',
                 'data'=>$data
             );
         }
